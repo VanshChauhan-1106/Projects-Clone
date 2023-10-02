@@ -1,0 +1,407 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+                               /* Navbar */
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Box 1 - Logo */
+
+.nav-logo {
+    height: 50px;
+    width: 120px;
+}
+ 
+.border {
+    border: 1px solid transparent;
+}
+
+.border2 {
+    border: 2px solid #131921;
+}
+
+.nav-logo:hover {
+    border: 1px solid white;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    background-image: url("amazon_logo.png");
+
+}
+
+/* box 2 */
+
+.nav-address {
+    height: 50px;
+    width: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-address:hover {
+    border: 1px solid white;
+}
+
+.add-first{
+    color: #CCCCCC;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 0.90rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Box 3 - Serch Bar */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #febd69;
+    width: 725px;
+    height: 40px;
+    border-radius: 5px;
+    /* border: 2px solid transparent; */
+
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 55px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #131921;
+}
+
+/* Box 4 - Flag */
+.nav-flag i {
+    color: #bd4159;
+    font-size: 1rem;
+}
+
+.nav-flag {
+    height: 40px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.90rem;
+    padding-top: 10px;
+}
+
+.nav-flag:hover {
+    border: 1px solid white;
+}
+
+/* Box 5 - Sign in option */
+
+.nav-signin {
+    height: 50px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-signin:hover {
+    border: 1px solid white;
+}
+
+span {
+    font-size: 0.75rem;
+}
+
+.nav-second {
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+/* Box 6 - Returns & Orders */
+
+.nav-order {
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-order:hover {
+    border: 1px solid white;
+}
+
+
+
+/* Box 7 - Cart */
+
+.nav-cart i{
+    font-size: 25px;
+
+}
+
+.nav-cart {
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+.nav-cart:hover {
+    border: 1px solid white;
+}
+
+                            /* panel */
+
+.panel {
+    height: 40px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options {
+    width: 75%;
+    font-size: 0.90rem;
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-options p:hover {
+    border: 1px solid white;
+}
+
+.panel-all:hover {
+    border: 1px solid white;
+}
+
+.panel-deal-elecronics {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.panel-deal-electronics:hover {
+    border: 1px solid white;
+}
+
+                            /* Hero Section */
+
+body {
+    background-color:  #e2e7e6;
+}
+
+.hero-section {
+    height: 320px;
+    background-size: cover;
+    background-image: url('hero_image.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    color: black;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.90rem;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+.hero-msg a:hover{
+    color: #c7511f;
+    text-decoration: underline;
+}
+
+                            /* Shop Section */
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 450px;
+    width: 23%;
+    /* border: 1px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    background-size: cover;
+    height: 350px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content a {
+    color: #007185;
+}
+
+.shop-section a:hover {
+    color: #c7511f;
+}
+
+                            /* Footer */
+
+footer {
+    margin-top: 15px;
+}
+
+/* footer-panel1 */
+
+
+.footer-panel1 {
+    background-color: #37475a;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    line-height: 19px;
+    font-size: 13px;
+}
+
+.footer-panel1 a {
+    color: white;
+}
+
+.footer-panel1:hover {
+    background-color: #37475ae0;
+    
+}
+
+/* footer-panel2 */
+.footer-panel2 {
+    background-color: #232f3e;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul {
+    margin-top: 25px;
+}
+
+ul p {
+    font-weight: 700;
+    
+}
+
+.footer-panel2 a:hover {
+    text-decoration: underline;
+}
+
+/* footer-panel3 */
+.footer-panel3 {
+    background-color: #232f3e;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer-panel4 */
+.footer-panel4 {
+    background-color: #131921;
+    color: white;
+    height: 80px;
+    font-size: 0.80rem;
+    text-align: center;
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+.pages a {
+    color: white;
+}
+
+.pages a:hover{
+    text-decoration: underline;
+}
+
+.copyright {
+    padding-top: 5px;
+}
+
+                        /* Style */
+
